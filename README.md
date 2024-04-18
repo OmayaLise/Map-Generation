@@ -1,7 +1,7 @@
 # Perlin Noise
 
 ISART DIGITAL
-Creators : Omaya Lise et  Bryan Bachelet
+Omaya Lise and  Bryan Bachelet
 ## Introduction :
 
 The objective is to generate a map with Perlin noise on Unity.
