@@ -1,18 +1,18 @@
-# TP_PerlinNoise
+# Perlin Noise
 
-Projet à ISART DIGITAL
-Auteurs : Omaya Lise et  Bryan Bachelet
+ISART DIGITAL
+Creators : Omaya Lise et  Bryan Bachelet
 ## Introduction :
 
-L'objectif de se projet était de générer un terrain procédurale à l'aide du bruit de Perlin.
+The objective is to generate a map with Perlin noise on Unity.
 
-## Générer un terrain
-Pour générer un terrain, il faut sélèctionner l'object System Manager. Il possède le component MapGenerator avec un bouton Generate et un bouton Random Seed.  Le script MapGenerator vous permet de modifier les paramètres du terrain : 
-* Map Height : Taille de la hauteur maximale du terrain 
-* Seed : Détermine la valeur de l'aléatoire du terrain
-* Scale : Chaque scale détermine un octave de la noise map
-* Active Power : Permet ajouter un étape dans la génération du noise qui peut augmenter ou réduire la taille des montagne
-* Active Step :  Permet de créer des terrases pour le terrain
+## Generate a terrain
+To create a map you need to select the System Manager gameobject. On the MapGenerator component, click on the button generate and random seed. The parameters influence the generation of the map.
 
+* Map Height : Max height found on the map
+* Seed : Random used for generation
+* Scale : Each scale decide the octave of the noise map
+* Active Power : Add a step to augment or lower the mountains heights
+* Active Step :  Create terraces on the map
 
 ![Image](ScreenShot_1.png)
